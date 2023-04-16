@@ -1,0 +1,927 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  
+
+<link rel="stylesheet" href="css/style.css" />
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#box1").fadeIn();
+    $("#box2").fadeIn("slow");
+    $("#box3").fadeIn(3000);
+  });
+});
+</script>
+
+
+<style>
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 1px;
+  font-size: 12px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+
+ <style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+  background-color:dodgerwhite;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/mac.jpg");
+  min-height: 100%;
+}
+
+.w3-large .w3-button {
+  padding: 1px 1px;
+}
+
+</style>
+
+
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 10px;
+  margin-top: -12px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 6px 10px;
+  position: absolute;
+  bottom: 8px;
+  width: 50%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+
+
+<!---Carousal---->
+<style>
+body {
+  font-family: cursive;
+  padding:2px 2px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 100%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<style>
+div {
+ 
+  border: 1px solid black;
+  margin:1px dodgerblue;
+  padding: 1px 1px;
+  background-color:white;
+  color:black;
+  font-size:10px;
+  
+}
+
+</style>
+
+
+</head>
+<body>
+
+
+
+<!-- Navbar (sit on top) -->
+
+<div class="w3-center" style="font-family:cursive; color:black;">
+
+  <div class=" w3-top w3-karge " id="myNavbar">
+ 
+ 
+
+
+  
+    <!-- Right-sided navbar links -->
+    <div class="w3-large  w3-hide-small" style="font-size:10px; color:blue;">
+	
+	<span> <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>Home</a></span>
+    
+
+       <span> <a href="#software" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>Software</a></span>
+       <span> <a href="#tally" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>FinTech</a></span>
+	   
+	   
+	          <span> <a href="#tally" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>Cloud</a></span>
+	
+         <span> <a href="#mgt" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>Management</a></span>
+      
+     <span> <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>Register here</a></span>
+	  
+	
+
+	
+	  
+    </div>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-blue w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-10">Close ×</a>
+    <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+  
+
+  <a href="#software" onclick="w3_close()" class="w3-bar-item w3-button">Software</a>
+  
+  <a href="#tally" onclick="w3_close()" class="w3-bar-item w3-button">FinTech</a>
+   <a href="#cloud" onclick="w3_close()" class="w3-bar-item w3-button">Cloud</a>
+  
+  <a href="#mgt" onclick="w3_close()" class="w3-bar-item w3-button">Management</a>
+  
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Register here</a>
+
+
+  
+ 
+ 
+</nav>
+
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-container w3-grayscale-min" style="padding: 20px 1px;" id="home">
+
+ 
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 350px;
+  height: 350px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color:dodgerblue;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: blue;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
+
+</head>
+
+
+
+
+
+<div class=" w3-large  w3-display-bottom  "  style="padding:20px 1px; height: 5px;
+    background:blue; color:white; font-family: cursive; font-size:12px;" >
+
+<p>JS Software & Technology </p>
+
+  <div class="w3-container w3-right">
+<iframe width="200" height="150" src="https://www.youtube.com/embed/zuj_S__ecK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</div>
+<style>
+.fa {<br />
+  padding: 40px;<br />
+  font-size: 60px;<br />
+  width: 80px;<br />
+  text-align: center;<br />
+  text-decoration: none;<br />
+  margin: 5px 2px;<br />
+}</p>
+<p>.fa:hover {<br />
+    opacity: 0.7;<br />
+}</p>
+<p>.fa-facebook {<br />
+  background: white;<br />
+  color: white;<br />
+}</p>
+<p>.fa-twitter {<br />
+  background: #55ACEE;<br />
+  color: white;<br />
+}</p>
+<p>.fa-google {<br />
+  background: #dd4b39;<br />
+  color: white;<br />
+}</p>
+<p>.fa-linkedin {<br />
+  background: #007bb5;<br />
+  color: white;<br />
+}</p>
+<p>.fa-youtube {<br />
+  background: #bb0000;<br />
+  color: white;<br />
+}</p>
+<p>.fa-instagram {<br />
+  background: #125688;<br />
+  color: white;<br />
+}</p>
+<p>.fa-pinterest {<br />
+  background: #cb2027;<br />
+  color: white;<br />
+}</p>
+
+<p>.fa-skype {<br />
+  background: #00aff0;<br />
+  color: white;<br />
+}</p>
+<p>.fa-android {<br />
+  background: #a4c639;<br />
+  color: white;<br />
+}</p>
+<p>.fa-dribbble {<br />
+  background: #ea4c89;<br />
+  color: white;<br />
+}</p>
+<p>.fa-vimeo {<br />
+  background: #45bbff;<br />
+  color: white;<br />
+}</p>
+<p>.fa-tumblr {<br />
+  background: #2c4762;<br />
+  color: white;<br />
+}</p>
+
+
+<p>.fa-flickr {<br />
+  background: #f40083;<br />
+  color: white;<br />
+}</p>
+<p>.fa-yahoo {<br />
+  background: #430297;<br />
+  color: white;<br />
+}</p>
+
+<p>.fa-reddit {<br />
+  background: #ff5700;<br />
+  color: white;<br />
+}</p>
+
+</style>
+<h4>Follow us at Social Media</h4>
+<!-- Add font awesome icons -->
+<a href="https://www.facebook.com/amitacharjeesoftwaredeveloper" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="https://www.youtube.com/@amitkumaracharjee572" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-pinterest"></a>
+
+<a href="#" class="fa fa-skype"></a>
+<a href="#" class="fa fa-android"></a>
+<a href="#" class="fa fa-dribbble"></a>
+<a href="#" class="fa fa-vimeo"></a>
+<a href="#" class="fa fa-tumblr"></a>
+<a href="#" class="fa fa-flickr"></a>
+<a href="#" class="fa fa-yahoo"></a>
+<a href="#" class="fa fa-reddit"></a>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<div class="container-fluid " style="padding:100px 1px; height:100px; color:black; backgroind-color:blue; text-align:center; margin:1px; border: 1px;" id="about">
+
+
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>
+
+</div>
+
+</div>
+
+
+
+
+<!----Product---->
+<div class="container-fluid  w3-blue" style="padding:40px 1px;  color:black; text-align:center; margin:1px; font-size:14px; border: 1px;" id="software">
+
+
+
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<div class="container mt-5  w3-white">
+<h4>  Services we offer:</h4>
+</div>
+<div class="m-4">
+    <div class="row">
+     
+       <div class="col-4">
+            <div class="card text-white bg-success mb-2">
+                <div class="card-body">
+				<h5 class="card-title">Web App</h5>
+				<img src="mumtahenapic/webapp.jpg"  style="width:40%;height:40%;">
+               <a href="#webApp">   
+                    <p class="card-text">Get started</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card text-white bg- mb-2">
+                <div class="card-body">
+				<h5 class="card-title">Mobile App</h5>
+				<img src="mumtahenapic/mobapp.png"  style="width:40%;height:40%;">
+               <a href="#mobileApp">   
+                    <p class="card-text">Get started</p></a>
+                </div>
+            </div>
+        </div>
+       
+		
+		<div class="col-4">
+            <div class="card text-white bg-warning mb-2">
+                <div class="card-body">
+                    <h5 class="card-title"><a  href="http://www.learnatlegend.com"> Legend E-learning portal</a></h5>
+                
+                </div>
+            </div>
+        </div>
+       		
+			
+			 <div class="col-4">
+            <div class="card text-white bg- mb-2">
+                <div class="card-body">
+				<h5 class="card-title">FinTech</h5>
+				<img src="mumtahenapic/mobapp.png"  style="width:40%;height:40%;">
+               <a href="#mobileApp">   
+                    <p class="card-text">Get started</p></a>
+                </div>
+            </div>
+        </div>
+       
+				 <div class="col-4">
+            <div class="card text-white bg- mb-2">
+                <div class="card-body">
+				<h5 class="card-title">Cloud</h5>
+				<img src="mumtahenapic/mobapp.png"  style="width:40%;height:40%;">
+               <a href="#mobileApp">   
+                    <p class="card-text">Get started</p></a>
+                </div>
+            </div>
+        </div>
+			
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!----Tally---->
+<div class="container-fluid  w3-white" style="padding:200px 1px;  color:black; text-align:center; margin:1px; font-size:14px; border: 1px;" id="tally">
+
+
+
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<div class="container mt-5  w3-large">
+<h4> Tally </h4>
+</div>
+<div class="m-4">
+    <div class="row">
+        <div class="col-6">
+            <div class="card text-white bg-primary mb-4">
+                <div class="card-body">
+                
+					<img src="mumtahenapic/tallyprime.jpg"  style="width:60%;height:60%;">
+                 <a href="#tallyPrime">   <p class="card-text">Get started</p> </a>
+                </div>
+				
+				 </div>
+        </div>
+
+        <div class="col-6">
+            <div class="card text-white bg-secondary mb-4">
+                <div class="card-body">
+				<img src="mumtahenapic/tallyserver.png"  style="width:60%;height:60%;">
+               <a href="#tallyPrimeServer">   
+                    <p class="card-text">Get started</p></a>
+                </div>
+            </div>
+        </div>
+     	
+<head>
+
+ </div>
+
+
+
+
+
+<div class="container mt-5 " style="padding:2px 1px; color:black; text-align:center; margin:1px; font-size:12px; border: 1px;" >
+
+
+
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color:white;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+
+
+
+
+
+
+	
+
+
+
+<!----TallyPrime---->
+<div class="w3-large  w3-blue" style="padding:100px 1px; color:black; height:10%px; background-color:gray; text-align:center; margin:1px; border: 1px; font-size:14px;" id="tallyPrime">
+
+		   
+	
+<p><img src="mumtahenapic/tallyprime.jpg"   style="height:10px: width:2px;">TallyPrime</p> <br>
+
+<span><a href="#"><p>Take a free trial</p></a></span>
+			   
+          
+</div>
+
+ <div class="container mt-5  w3-large">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/DPhJ8JP6fc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				
+  </div>
+				   
+				   
+				   
+				 		   
+				   
+<head>
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+
+
+		   
+</div>
+
+
+
+<!----TallyPrime Server---->
+<div class="w3-display-container  w3-white" style=" padding:10%; color:white;  text-align:center; margin:1px; font-size:12px; border: 1px;" id="tallyPrimeServer">
+
+
+<h4>How to Install & Setup TallyPrime Server</h4>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OeJPAz0RAvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+</div>
+
+
+
+
+
+
+<!----The End----->
+
+<div class="w3-card" style="font-size:12px; color:white;  font-family:cursive; background-color:white;" id="contact"> 
+
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+
+
+<form action="/action_page.php">
+  <div class="container">
+    <h1>Register</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <hr>
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+  
+  <div class="container signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+</form>
+
+</div>
+
+
+
+
+
+<div class=" w3-display-bottom w3-blue">
+<h5>Our Products</h5>
+<span><i><a href="#tallyPrime"><p style="float:left; color:black; ">TallyPrime</p></a></i></span>
+<span><i><a href="#tallyPrimeServer"><p  style="float:bottom; color:black;">TallyPrime Server</p></a></i></span>
+	
+	
+ <a href="#tallyPrimeDeveloper"><p  style="float:bottomleft; color:white;">TallyPrime Developer</p></a>
+
+	<a href="#"><p  style="float:left; color:black;">Buy online</p></a>
+
+<a href="#"><p  style="float:bottomleft; color:black;">Download</p></a>
+
+<a href="#"><p  style="float:bottomleft; color:black;">Free trial</p></a>
+
+ </div>
+	
+
+
+
+<div class="footer  w3-bottom">
+<h3><span>Address</span><h3>
+  <p style="font-size:18px" ><span>JS Software & Technology </span><br><span>34/3, Pallabi, Mirpur-1216</span> </p>
+
+<a href="#" data-toggle="popover" title="Popover header" data-content="Some content inside the popover"><span>Topup</span></a> <br>
+	
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+</html>
+
