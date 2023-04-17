@@ -241,15 +241,11 @@ div {
 
 </style>
 
-
 </head>
 <body>
 
 
-
 <!-- Navbar (sit on top) -->
-
-
 
 
 <div class="w3-center" style="font-family:cursive; color:black;">
@@ -257,9 +253,6 @@ div {
   <div class=" w3-top w3-karge " id="myNavbar">
  
  
-
-
-  
     <!-- Right-sided navbar links -->
     <div class="w3-large  w3-hide-small" style="font-size:10px; color:blue;">
 	
@@ -272,45 +265,14 @@ div {
 	   
 	          <span> <a href="#tally" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>Cloud</a></span>
 	
-       
-	
-
-	
-	  
-    </div>
-    </div>
+         
+  </div>
+  </div>
 
 
 
 
 
-
-
-
-
-<div class="w3-center" style="font-family:cursive; color:black;">
-
-  <div class=" w3-bottom w3-karge " id="myNavbar">
- 
- 
-
-
-  
-    <!-- Right-sided navbar links -->
-    <div class="w3-large  w3-hide-small" style="font-size:10px; color:blue;">
-	
-	
-	
-         <span> <a href="#mgt" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>Management</a></span>
-      
-     <span> <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>Register here</a></span>
-	  
-	
-
-	
-	  
-    </div>
-    </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
     <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
@@ -331,13 +293,12 @@ div {
    <a href="#cloud" onclick="w3_close()" class="w3-bar-item w3-button">Cloud</a>
   
   <a href="#mgt" onclick="w3_close()" class="w3-bar-item w3-button">Management</a>
+    <a href="#mgt" onclick="w3_close()" class="w3-bar-item w3-button">Photo Gallery</a>
   
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Register here</a>
 
 
-  
- 
- 
+
 </nav>
 
 
@@ -394,47 +355,15 @@ body {
 </head>
 
 
-
-
-
 <div class=" w3-large  w3-display-bottom  "  style="padding:20px 1px; height: 5px;
     background:blue; color:white; font-family: cursive; font-size:12px;" >
 
 <p>JS Software & Technology </p>
 
   <div class="w3-container w3-right">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zuj_S__ecK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="460" height="315" src="https://www.youtube.com/embed/zuj_S__ecK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 </div>
-
-
-
-
-
-
-
-
-
-<html>
-  <head>
-    <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
-    <script src="https://unpkg.com/aframe-physics-system@1.4.0/dist/aframe-physics-system.min.js"></script>
-  </head>
-  <body>
-    <a-scene physics>
-      <a-sphere position="0 6 -4" color="#ABABAB9" dynamic-body></a-sphere>
-      <a-plane position="0 0 -5" rotation="-90 0 0" width="6" height="6" color="#000000" static-body></a-plane>
-      <a-sky color="#ECECEC"></a-sky>
-    </a-scene>
-  </body>
-</html>
-
-
-
-
-
-
-
 
 
 
@@ -515,6 +444,63 @@ background: #c4302b;
 
 
 
+
+
+<style>
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+
+
+
+
+<div class="dropdown">
+  <button class="dropbtn">Know more</button>
+  <div class="dropdown-content">
+    <a href="#mgt">Management</a>
+    <a href="#photo">Photo Gallery</a>
+    <a href="#contact">Link 3</a>
+  </div>
+</div>
+
+
+
+
+
+
+
 <div class="container-fluid " style="padding:100px 1px; height:100px; color:black; backgroind-color:blue; text-align:center; margin:1px; border: 1px;" id="about">
 
 
@@ -564,17 +550,8 @@ button:hover, a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
 <!----Product---->
-<div class="container-fluid  w3-blue" style="padding:300px 1px;  color:black; text-align:center; margin:1px; font-size:14px; border: 1px;" id="software">
+<div class="container-fluid  w3-blue" style="padding:800px 1px;  color:black; text-align:center; margin:1px; font-size:14px; border: 1px;" id="software">
 
 
 
@@ -743,17 +720,10 @@ button:hover, a:hover {
 
 
 
-
-
-	
-
-
-
 <!----TallyPrime---->
 <div class="w3-large  w3-blue" style="padding:100px 1px; color:black; height:10%px; background-color:gray; text-align:center; margin:1px; border: 1px; font-size:14px;" id="tallyPrime">
 
-		   
-	
+		  
 <p><img src="mumtahenapic/tallyprime.jpg"   style="height:10px: width:2px;">TallyPrime</p> <br>
 
 <span><a href="#"><p>Take a free trial</p></a></span>
@@ -762,9 +732,9 @@ button:hover, a:hover {
 </div>
 
  <div class="container mt-5  w3-large">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/DPhJ8JP6fc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DPhJ8JP6fc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 				
-  </div>
+ </div>
 				   
 				   
 				   
@@ -825,6 +795,76 @@ button:hover, a:hover {
 
 
 
+<!-- Management Section -->
+<div class="w3-large" style=" background-color:black; border: 0px;" id="mgt" >
+
+<div  class="mt-2 p-5 bg-primary; background-color:gray;" >
+
+<button type="button" class="collapsible" style="font-size:16px; color:white;"  >Message from the CEO</button>
+<div class="W3-large"   >
+<p style="font-size:16px; color:black; font-family:cursive; background-color:white;"> Legend English Academy
+
+LEGEND ENGLISH ACADEMY is an ideal institute for learners interested in developing their life skills in peer-to-peer communication. We have a mission to develop both soft & life skills through effective & long term strategy of modern & sophisticated learning through one to one interactive communication.
+We live in a competitive world. To gain sustainable competitive edge in the global competitive market we have focused on our core competences based on cloud based value delivery & value proposition. Technology is the building block to business success. </p>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+<button type="button" class="collapsible" style="font-size:16px; color:white;"  >Profile of the Founder</button>
+   
+	<div class="w3-large">
+     
+      <p style="color: black; font-family:cursive; font-size:16px; background-color:white;">Mr. Amit Kumar Acharjee, MBA, LLB , CEO & Software Developer , JS Software & Technology, has been associated with multi-faceted socio-economic activities & is currently dedicated to software development & providing accounting software services & training on English. Mr. Acharjee has been relentlessly in his pursuit of ‘do something innovative’ motto & sincerely dedicated to make you fit for the days to come.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w3-large" style=" background-color:black; border: 0px;" id="photo" >
 
 <div class="w3-container w3-black">
 <h3>Photo</h3>
@@ -876,7 +916,7 @@ button:hover, a:hover {
   </div>
 </div>
 
-
+</div>
 </div>
 <script>
 // Get the elements with class="column"
