@@ -1,0 +1,1381 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  
+
+<link rel="stylesheet" href="css/style.css" />
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#box1").fadeIn();
+    $("#box2").fadeIn("slow");
+    $("#box3").fadeIn(3000);
+  });
+});
+</script>
+
+
+<style>
+.header {
+ 
+  border: 1px solid black;
+  margin:1px dodgerblue;
+  padding: 1px 1px;
+  background-color:white;
+  color:black;
+  font-size:10px;
+  
+}
+
+</style>
+<style>
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 1px;
+  font-size: 12px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+
+ <style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+  background-color:white;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/mac.jpg");
+  min-height: 100%;
+}
+
+.w3-large .w3-button {
+  padding: 1px 1px;
+}
+
+</style>
+
+
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 10px;
+  margin-top: -12px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 6px 10px;
+  position: absolute;
+  bottom: 8px;
+  width: 50%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+
+
+<!---Carousal---->
+<style>
+body {
+  font-family: cursive;
+  padding:2px 2px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 100%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<style>
+div {
+ 
+  border: 1px solid black;
+  margin:1px dodgerblue;
+  padding: 1px 1px;
+  background-color:white;
+  color:black;
+  font-size:10px;
+  
+}
+
+</style>
+
+
+
+
+</head>
+<body>
+
+
+<!-- Navbar (sit on top) -->
+
+
+<div class="w3-top" style="font-family:cursive; background-color:white; float:left;">
+
+
+
+
+<div class="header">
+
+ <h5 style="float:right;">JS Software & Technology</h5>
+
+         
+  </div>
+
+
+  <div class="w3-large" id="myNavbar">
+ 
+ 
+    <!-- Right-sided navbar links -->
+    <div class="w3-large  w3-hide-small" style="font-size:8px; color:black;">
+	
+	<span> <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>Home</a></span>
+    
+
+       <span> <a href="#software" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>Software</a></span>
+       <span> <a href="#tally" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>FinTech</a></span>
+	   
+	   
+	          <span> <a href="#cloud" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>Cloud</a></span>
+			  
+	
+			  
+         
+  </div>
+  </div>
+
+
+
+
+
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-blue w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-10">Close ×</a>
+    <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+  
+
+  <a href="#software" onclick="w3_close()" class="w3-bar-item w3-button">Software</a>
+  
+  <a href="#tally" onclick="w3_close()" class="w3-bar-item w3-button">FinTech</a>
+   <a href="#cloud" onclick="w3_close()" class="w3-bar-item w3-button">Cloud</a>
+  
+  <a href="#mgt" onclick="w3_close()" class="w3-bar-item w3-button">Management</a>
+    <a href="#mgt" onclick="w3_close()" class="w3-bar-item w3-button">Photo Gallery</a>
+  
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">Register here</a>
+
+
+
+</nav>
+
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-container w3-white" style="padding:100px 1px;" id="home">
+
+  
+ 
+<style>
+.dropbtn {
+  background-color:black;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+
+
+
+
+<div class="dropdown">
+  <button class="dropbtn">Know more</button>
+  <div class="dropdown-content">
+    <a href="#mgt">Management</a>
+    <a href="#photo">Photo Gallery</a>
+    <a href="#contact">Link 3</a>
+  </div>
+</div>
+
+
+
+ 
+ 
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 350px;
+  height: 350px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color:dodgerblue;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: blue;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
+
+</head>
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {horizontal-align: right;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 6px;
+  margin-top: -12px;
+  color: blue;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.2s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: black;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 12px 1px;
+  position: absolute;
+  bottom: 4px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 2px 2px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+
+
+ <div class="jumbotron" style="background-color:dodgerblue;>
+<div class="slideshow-container w3-white">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img src="tallyprime.jpg" style=" width:50%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="tallyserver.png" style=" width:50%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img src="tallyprime.jpg" style=" width:50%">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="tallyprime.jpg" style=" width:50%">
+  <div class="text">Caption Four</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="tallyprime.jpg" style=" width:50%">
+  <div class="text">Caption Five</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img src="tallyfront.jpg" style=" width:50%">
+  <div class="text">Caption Six</div>
+</div>
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+
+</div>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+ 
+
+
+
+
+<div class="container-fluid " style="padding:200px 1px; height:100px; color:black; backgroind-color:blue; text-align:center; margin:1px; border: 1px;" id="about">
+
+
+
+<style> 
+/* Style the Sticky icons on web page */ 
+.stickyicon-list { 
+position: fixed;
+
+top: 300px; 
+transform: translateY(-50%);           
+}       
+.stickyicon-list a { 
+display: block; 
+text-align: center; 
+padding: 2px; 
+transition: all 0.5s ease; 
+color: white; 
+font-size: 20px; 
+}       
+/* HOver affect on sticky social media icons */ 
+.stickyicon-list a:hover { 
+color: #000; 
+width:2px; 
+} 
+ 
+/* Now we have to design each icon of social media */       
+.facebook { 
+background: #3b5998; 
+color: white;
+}       
+.twitter { 
+color: white; 
+background: #00acee; 
+} 
+.linkedin { 
+background: #0e76a8; 
+color: white; 
+}       
+.google { 
+color: white; 
+background: #db4a39; 
+} 
+.instagram { 
+background: #3f729b; 
+color: white; 
+}       
+.youtube { 
+color: white; 
+background: #c4302b;  
+} 
+</style> 
+
+<div class="stickyicon-list">
+<a href="https://www.facebook.com/amitacharjeesoftwaredeveloper" class="facebook"> 
+<i class="fa fa-facebook"></i> 
+</a> 
+<a href="#twitter" class="twitter"> 
+<i class="fa fa-twitter"></i> 
+</a>     
+<a href="#linkedin" class="linkedin"> 
+<i class="fa fa-linkedin"></i> 
+</a> 
+<a href="#google" class="google"> 
+<i class="fa fa-google"></i> 
+</a>   
+<a href="#instagram" class="instagram"> 
+<i class="fa fa-instagram"></i> 
+</a>                            
+<a href="#youtube" class="youtube"> 
+<i class="fa fa-youtube"></i> 
+</a> 
+</div> 
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>
+
+</div>
+
+
+
+
+
+
+
+
+<!----Product---->
+<div class="w-3 large  w3-white" style="  color:black; text-align:center; margin:1px; font-size:14px; border: 1px;" id="software">
+
+
+
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<div class="container mt-5  w3-white">
+<h4>  Services we offer:</h4>
+</div>
+<div class="m-4">
+    <div class="row">
+     
+       <div class="col-4">
+            <div class="card text-white bg-success mb-2">
+                <div class="card-body">
+				<h5 class="card-title">Web App</h5>
+				<img src="mumtahenapic/webapp.jpg"  style="width:40%;height:40%;">
+               <a href="#webApp">   
+                    <p class="card-text">Get started</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card text-white bg- mb-2">
+                <div class="card-body">
+				<h5 class="card-title">Mobile App</h5>
+				<img src="mumtahenapic/mobapp.png"  style="width:40%;height:40%;">
+               <a href="#mobileApp">   
+                    <p class="card-text">Get started</p></a>
+                </div>
+            </div>
+        </div>
+       
+		
+		<div class="col-4">
+            <div class="card text-white bg-warning mb-2">
+                <div class="card-body">
+                    <h5 class="card-title"><a  href="http://www.learnatlegend.com"> Legend E-learning portal</a></h5>
+                
+                </div>
+            </div>
+        </div>
+       		
+			
+			 <div class="col-4">
+            <div class="card text-white bg- mb-2">
+                <div class="card-body">
+				<h5 class="card-title">FinTech</h5>
+				<img src="mumtahenapic/mobapp.png"  style="width:40%;height:40%;">
+               <a href="#mobileApp">   
+                    <p class="card-text">Get started</p></a>
+                </div>
+            </div>
+        </div>
+       
+				 <div class="col-4">
+            <div class="card text-white bg- mb-2">
+                <div class="card-body">
+				<h5 class="card-title">Cloud</h5>
+				<img src="mumtahenapic/mobapp.png"  style="width:40%;height:40%;">
+               <a href="#cloud">   
+                    <p class="card-text">Get started</p></a>
+                </div>
+            </div>
+        </div>
+			
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!----WebApp---->
+<div class="container-fluid  w3-white" style="padding:100px 1px;  color:black; text-align:center; margin:1px; font-size:14px; border: 1px;" id="webApp">
+
+
+><img src="tallyprime.jpg"   style="height:20px: width:20px;">TallyPrime</p> <br>
+
+<span><a href="#"><p>Take a free trial</p></a></span>
+			   
+          
+</div>
+
+</div>
+
+
+
+
+<!----Tally---->
+<div class="container-fluid  w3-white" style="padding:100px 1px;  color:black; text-align:center; margin:1px; font-size:14px; border: 1px;" id="tally">
+
+
+
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<div class="container mt-5  w3-large">
+<h4> Tally </h4>
+</div>
+<div class="m-4">
+    <div class="row">
+        <div class="col-6">
+            <div class="card text-white bg-primary mb-4">
+                <div class="card-body">
+                
+					<img src="tallyprime.jpg"  style="width:60%;height:60%;">
+                 <a href="#tallyPrime">   <p class="card-text">Get started</p> </a>
+                </div>
+				
+				 </div>
+        </div>
+
+        <div class="col-6">
+            <div class="card text-white bg-secondary mb-4">
+                <div class="card-body">
+				<img src="tallyserver.png"  style="width:60%;height:60%;">
+               <a href="#tallyPrimeServer">   
+                    <p class="card-text">Get started</p></a>
+                </div>
+            </div>
+        </div>
+     	
+<head>
+
+ </div>
+
+
+
+
+
+<div class="container mt-5 " style="padding:2px 1px; color:black; text-align:center; margin:1px; font-size:12px; border: 1px;" >
+
+
+
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color:white;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+
+
+
+
+<!----TallyPrime---->
+<div class="w3-large  w3-blue" style="padding:100px 1px; color:black; height:10%px; background-color:gray; text-align:center; margin:1px; border: 1px; font-size:14px;" id="tallyPrime">
+
+		  
+<p><img src="tallyprime.jpg"   style="height:20px: width:20px;">TallyPrime</p> <br>
+
+<span><a href="#"><p>Take a free trial</p></a></span>
+			   
+          
+</div>
+
+ <div class="container mt-5  w3-large">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DPhJ8JP6fc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				
+ </div>
+				   
+				   
+				   
+				 		   
+				   
+<head>
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+
+
+		   
+</div>
+
+
+
+<!----TallyPrime Server---->
+<div class="w3-display-container  w3-white" style=" padding:10%; color:white;  text-align:center; margin:1px; font-size:12px; border: 1px;" id="tallyPrimeServer">
+
+
+<h4>How to Install & Setup TallyPrime Server</h4>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OeJPAz0RAvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-3 large  w3-white" style="  color:black; text-align:center; margin:1px; font-size:14px; border: 1px;" id="cloud">
+
+
+
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<div class="container mt-5  w3-white">
+<h4>  Services we offer:</h4>
+</div>
+<div class="m-4">
+    <div class="row">
+     
+       <div class="col-4">
+            <div class="card text-white bg-success mb-2">
+                <div class="card-body">
+				<h5 class="card-title">Software as a Service</h5>
+				<img src="mumtahenapic/webapp.jpg"  style="width:40%;height:40%;">
+               <a href="#SAAS">   
+                    <p class="card-text">Get started</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card text-white bg- mb-2">
+                <div class="card-body">
+				<h5 class="card-title">Platform as a Service</h5>
+				<img src="mumtahenapic/mobapp.png"  style="width:40%;height:40%;">
+               <a href="#PAAS">   
+                    <p class="card-text">Get started</p></a>
+                </div>
+            </div>
+        </div>
+       
+	
+       
+        <div class="col-4">
+            <div class="card text-white bg- mb-2">
+                <div class="card-body">
+				<h5 class="card-title">Infrastructure as a Service</h5>
+				<img src="mumtahenapic/mobapp.png"  style="width:40%;height:40%;">
+               <a href="#IAAS">   
+                    <p class="card-text">Get started</p></a>
+                </div>
+            </div>
+        </div>
+       
+       
+       
+    
+			
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Management Section -->
+<div class="w3-large w3-blue" style=" background-color:white; padding:40px 1px;  border: 1px;" id="mgt" >
+
+<div  class="mt-2 p-5 bg-primary; background-color:white;" >
+
+<button type="button" class="collapsible" style="font-size:16px; color:white;"  >Message from the CEO</button>
+<div class="W3-large"   >
+<p style="font-size:16px; color:black; font-family:cursive; background-color:white;">We live in a competitive world.  To gain sustainable competitive edge  in the global competitive market we have focused on our core  competences based on cloud based value delivery & value proposition. Technology is the building block to business success. Fintech, IT governance & security, people skill, business analytics & data science are the key to sustainable development. JS Software & Technology believes in leveraging all aspects of customization to the needs of the valued clients. </p>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+<button type="button" class="collapsible" style="font-size:16px; color:white;"  >Profile of the Founder</button>
+   
+	<div class="w3-large">
+     
+      <p style="color: black; font-family:cursive; font-size:16px; background-color:white;">Mr. Amit Kumar Acharjee, MBA, LLB , ACCA ( Part-qualified) ,   CEO & Software Developer has been associated with multi-faceted socio-economic activities & is currently dedicated to  software development to equip our future generation with future skills-set through providing state-of-the art technological service & training. Mr. Acharjee has been relentlessly in his pursuit of ‘do something innovative’ motto & sincerely dedicated to transform your business.   Recently he has completed his training on PHP Zend, Java, etc as well as pursuing BSc in Computer Science ( IUBH-Germany). 
+
+</p>
+    </div>
+  </div>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+
+
+
+
+
+
+<div class="w3-large" style=" background-color:dodgerblue; padding:20px 1px; border: 1px;" id="photo" >
+
+<div class="w3-container w3-white">
+<h3>Photo</h3>
+
+<!-- Header -->
+<div class="header" id="myHeader">
+  <h1 style="font-family:cursive;"></h1>
+ 
+  <button class="btn" onclick="one()">1</button>
+  <button class="btn active" onclick="two()">2</button>
+  <button class="btn" onclick="four()">4</button>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="mumtahenapic/mumta2.png" style="width:100%">
+    <img src="mumtahenapic/mumta1.png" style="width:100%">
+    <img src="mumtahenapic/mumta2.png" style="width:100%">
+    <img src="mumtahenapic/mumta3.png" style="width:100%">
+    <img src="mumtahenapic/mumta4.png" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta1.png" style="width:100%">
+    <img src="mumtahenapic/mumta2.png" style="width:100%">
+    <img src="mumtahenapic/mumta3.png" style="width:100%">
+    <img src="mumtahenapic/mumta4.png" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta1.png" style="width:100%">
+     <img src="mumtahenapic/mumta2.png" style="width:100%">
+     <img src="mumtahenapic/mumta2.png" style="width:100%">
+    <img src="mumtahenapic/mumta2.png" style="width:100%">
+    <img src="mumtahenapic/mumta2.png" style="width:100%">
+    <img src="mumtahenapic/mumta2.png" style="width:100%">
+  </div>
+  <div class="column">
+     <img src="mumtahenapic/mumta2.png" style="width:100%">
+    <img src="mumtahenapic/mumta2.png" style="width:100%">
+    <img src="mumtahenapic/mumta2.png" style="width:100%">
+    <img src="mumtahenapic/mumta2.png" style="width:100%">
+     <img src="mumtahenapic/mumta2.png" style="width:100%">
+     <img src="mumtahenapic/mumta2.png" style="width:100%">
+  </div>
+</div>
+
+</div>
+</div>
+<script>
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a loop variable
+var i;
+
+// Full-width images
+function one() {
+    for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "100%";  // IE10
+    elements[i].style.flex = "100%";
+  }
+}
+
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "50%";  // IE10
+    elements[i].style.flex = "50%";
+  }
+}
+
+// Four images side by side
+function four() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "25%";  // IE10
+    elements[i].style.flex = "25%";
+  }
+}
+
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myHeader");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<!----The End----->
+
+<div class="w3-card" style="font-size:12px; color:white;  font-family:cursive; background-color:white;" id="contact"> 
+
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+
+
+<form action="/action_page.php">
+  <div class="container">
+    <h1>Register</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <hr>
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+  
+  <div class="container signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+</form>
+
+</div>
+
+
+
+
+
+<div class=" w3-display-bottom w3-blue">
+<h5>Our Products</h5>
+<span><i><a href="#tallyPrime"><p style="float:left; color:black; ">TallyPrime</p></a></i></span>
+<span><i><a href="#tallyPrimeServer"><p  style="float:bottom; color:black;">TallyPrime Server</p></a></i></span>
+	
+	
+ <a href="#tallyPrimeDeveloper"><p  style="float:bottomleft; color:white;">TallyPrime Developer</p></a>
+
+	<a href="#"><p  style="float:left; color:black;">Buy online</p></a>
+
+<a href="#"><p  style="float:bottomleft; color:black;">Download</p></a>
+
+<a href="#"><p  style="float:bottomleft; color:black;">Free trial</p></a>
+
+ </div>
+	
+
+
+
+<div class="footer  w3-bottom">
+<h5>Address<h>
+  <p style="font-size:16px" >Rahman
+Chamber (9 th Floor) 12-13, Motijheel C/A Dhaka-1000 </p>
+
+<a href="#" data-toggle="popover" title="Popover header" data-content="Some content inside the popover">Topup</a> 
+	
+	
+</div>
+
+
+</html>
+
