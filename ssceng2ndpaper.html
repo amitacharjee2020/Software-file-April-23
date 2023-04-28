@@ -36,10 +36,10 @@ $(document).ready(function(){
 footer {
   text-align: none;
   
-  background-color:black;
-  color: white;
+  background-color:white;
+  color: black;
   margin:1px;
-  font-family:calibri;
+  font-family:monospace;
   padding:2px;
 border:4px solid black;
 }
@@ -48,10 +48,10 @@ border:4px solid black;
   div {
   margin: 2px;
   border: 1px solid #4CAF50;
-  background-color:white;
-  color:black;
+  background-color:teal;
+  color:white;
   padding: 1px;
-  font-family: calibri;
+  font-family: cursive;
 }
  
   <style>
@@ -84,7 +84,7 @@ body, html {
 
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top" style="font-family:calibri;">
+<div class="w3-top" style="font-family:cursive;">
 
   <div class="w3-bar w3-light-grey w3-card" id="myNavbar">
     <a href="#home" class="w3-bar-item w3-button w3-wide"  >SSC English 2nd Paper <br> Legend English Academy</a>
@@ -128,77 +128,153 @@ body, html {
 
 
 
-
 <div class="container mt-3 w3-light-grey w3-padding-16"  id="home">
   <button type="button" class="collapsible" style="font-size:14px; color:white; "  >Home</button>
    
-	<div class=" w3-container  w3-display-top w3-text-black "  style="padding:40px; background-color:white;font-family: calibri;" >
+	<div class=" w3-container  w3-display-top w3-text-black "  style="padding:90px; background-color:white;font-family: cursive;" >
+    <span class="w3-jumbo "  >LEGEND ENGLISH ACADEMY </span><br>
+    <p class="dashed">Let's learn( Esho Shikhi)  E-learning platform </p>
+	
 
- <h4> SSC English 2nd Paper </h4>
+ <h3> SSC English 2nd Paper </h3>
  
  
- <h5  class="center" style="font-size:18px">Are you interested to join us? <b><strong> </h5>
-<div class="dropdown">
-
-<button  type="button" class="btn btn-secondary dropdown toggle" data-bs-toggle="dropdown" >Check the package
-</button>
-<ul  class="dropdown-menu">
-<li><a class="dropdown-item" href="file:///C:/Users/User/Desktop/Legend%20E-learning%20Portal/package.html"> Check the package</a></li>
-<li><a class="dropdown-item" href="#"> Check the package</a></li>
-</ul>
-
-</div>
  
  
-</div>
-</div>
-
-
-
-<!-- Contact Section -->
-
-
-<header>
+ 
+ 
+ 
 
 <style>
-
-.w3-container{
-background-color:#white ;
-font-size: 18px;
-border: 4px solid black:
-hieght: 400px;
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
 }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 </style>
-</header>
 
-<div class="w3-container w3-white" style="padding:40px 400px" id="contact">
 
-  
- 
 
-  <div style="margin-top:5px">
-    <p> Ami Kumar Acharjee  
-    <p><i class="fa fa-phone w3-large w3-margin-right"></i> Mob: 01712878767</p>
-    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email:bstbd2020@gmail.com.com</p>
-    <br>
-    <form action="/action_page.php" target="_blank">
-     <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
-     <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-     <p><input class="w3-input w3-border" type="text" placeholder="mobile" required name="mobile"></p>
-     <p><input class="w3-input w3-border" type="text" placeholder="subject" required name="subject"></p>
- <p><input class="w3-input w3-border" type="text" placeholder="mode of study" required name="Mode of study"></p>
-      <p>
-        <button class="w3-button w3-black" type="submit">
-          <i class="fa fa-send" style="font-size:24px" ></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
- 
+
+
+
+
+<div  class="container mt-3">
+
+<div class="dropdown">
+  <button class="dropbtn">Seen passage</button>
+  <div class="dropdown-content">
+    <a href="https://www.facebook.com/amitacharjeesoftwaredeveloper">Tailored class</a>
+    <a href="https://vimeo.com/manage/videos/658324780">Instructor-led class</a>
+    <a href="#">Blended class</a>
   </div>
-
 </div>
 
 
+
+
+<div class="dropdown">
+  <button class="dropbtn">Information Transfer</button>
+  <div class="dropdown-content">
+    <a href="https://www.facebook.com/amitacharjeesoftwaredeveloper">Tailored class</a>
+    <a href="https://vimeo.com/manage/videos/658324780">Instructor-led class</a>
+    <a href="#">Blended class</a>
+  </div>
+</div>
+
+
+
+
+
+<div class="dropdown">
+  <button class="dropbtn">Substitution Table</button>
+  <div class="dropdown-content">
+    <a href="https://www.facebook.com/amitacharjeesoftwaredeveloper">Tailored class</a>
+    <a href="https://vimeo.com/manage/videos/658324780">Instructor-led class</a>
+    <a href="#">Blended class</a>
+  </div>
+</div>
+
+
+
+<div class="dropdown">
+  <button class="dropbtn">Re-arrange</button>
+  <div class="dropdown-content">
+    <a href="https://www.facebook.com/amitacharjeesoftwaredeveloper">Tailored class</a>
+    <a href="https://vimeo.com/manage/videos/658324780">Instructor-led class</a>
+    <a href="#">Blended class</a>
+  </div>
+</div>
+
+
+
+
+
+<div class="dropdown">
+  <button class="dropbtn">Model Test</button>
+  <div class="dropdown-content">
+    <a href="https://www.facebook.com/amitacharjeesoftwaredeveloper">Tailored class</a>
+    <a href="https://vimeo.com/manage/videos/658324780">Instructor-led class</a>
+    <a href="#">Blended class</a>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="dropdown">
+  <button class="dropbtn">Vocabulary</button>
+  <div class="dropdown-content">
+    <a href="https://www.facebook.com/amitacharjeesoftwaredeveloper">Tailored class</a>
+    <a href="https://vimeo.com/manage/videos/658324780">Instructor-led class</a>
+    <a href="#">Blended class</a>
+  </div>
+</div>
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </div>
+ 
+</div>
+</div>
 
 
 
@@ -675,10 +751,10 @@ for (i = 0; i < acc.length; i++) {
 
 
 
-<div class="w3-top" style="font-family:calibri;">
+<div class="w3-top" style="font-family:cursive;">
 
   <div class="w3-bar w3-light-grey w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide"  ></a>
+    <a href="#home" class="w3-bar-item w3-button w3-wide"  >SSC English 2nd Paper <br> Legend English Academy</a>
     <!-- Right-sided navbar links -->
     <div class="w3-center w3-hide-small">
 	
